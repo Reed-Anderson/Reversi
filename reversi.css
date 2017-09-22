@@ -1,0 +1,66 @@
+/* reversi.css */
+
+.message {
+    width: 800px;
+    margin: 25px auto;
+    text-align: center;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #555;
+}
+
+#bottomMessage {
+    transition: ease;
+}
+
+.color-1 {
+    color: #93B1D7;
+    font-weight: 600;
+}
+
+.color-2 {
+    color: #512888;
+    font-weight: 600;
+}
+
+#game-board  {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 800px;
+    margin: 10px auto;
+}
+
+.square {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+}
+
+.square.highlight {
+    border: 2px solid yellow;
+}
+
+.black {
+    background-color: darkgray;
+}
+
+.piece {
+    width: 90px;
+    height: 90px;
+    margin: 5px;
+    border-radius: 50%;
+    box-shadow: 4px 2px 2px grey;
+    border: 1px black solid;
+    box-sizing: border-box;
+}
+
+.piece-1 {
+    background-color: #93B1D7;  /* Sporting KC Blue */
+}
+
+.piece-2 {
+    background-color: #512888; /* KSU Purple */
+}
